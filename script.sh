@@ -10,3 +10,4 @@ fi
 PALABRA="$1"
 DIRECTORIO="${2:-/}"
 
+grep -rl "$PALABRA" "$DIRECTORIO" 2>/dev/null
